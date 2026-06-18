@@ -9,6 +9,7 @@ public abstract class Formas {
 
     public abstract double getArea();
     public abstract double getPerimetro();
+
     public void estaPintado(){
         if (this.filled.compareTo("nao") == 0){
             System.out.println("A forma não está pintada.\n");
